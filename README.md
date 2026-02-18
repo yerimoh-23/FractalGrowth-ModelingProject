@@ -26,7 +26,7 @@ These models are implementations of fractal geometry and network theory, which i
 ## Idea
 The idea of these models is the combination of the original TGM’s triangular network and the Coalescing model. During the growth step, selected particles have the chance to bond with the nearest particle. Among those, selected bonds can connect to the nearest particle in the bond range and experience contraction in the direction of the links. The nearest particle is chosen by the effect of the solvent flow how much it is close to the center and also within the bond range.
 
-![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Image/ModelProcess.png)
+![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Images/ModelProcess.png)
 
 ## Experimental Design
 Key parameters tested:
@@ -56,15 +56,15 @@ The project includes multiple growth configurations designed to simulate differe
 
 #### Outer Boundary Growth Model
 - Boundary-driven aggregation toward the center
-  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Image/OuterTGMnew.png)
+  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Images/OuterTGMnew.png)
 
 #### Directional Flow Model (Horizontal)
 - Growth influenced by lateral drying dynamics
-  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Image/TGMS.png)
+  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Images/TGMS.png)
 
 #### Multi-Centroid Growth Model
 - Voronoi-based region separation with competing growth centers
-  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Image/TGMC_Voronoi.png)
+  ![Alt text](https://github.com/yerimoh-23/FractalGrowth-ModelingProject/blob/main/Images/TGMC_Voronoi.png)
 
 Each model shares a common bonding mechanism but differs in spatial growth constraints and environmental influence.
 
